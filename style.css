@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: sticky;
+    top: 0;
+    
+}
+.header{
+    height: 90px;
+   
+    background-color: #4334a7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 5px 5px 5px rgb(177, 175, 175);
+}
+.header h1{
+    margin-left: 90px;
+}
+.points{
+    display: flex;
+    gap: 50px;
+    margin-right: 90px;
+}
+.firstsec{
+    background-image: url(https://img.freepik.com/free-vector/glowing-shiny-musical-notes-background-design_1017-32856.jpg);
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+   align-items: center;
+   gap: 100px;
+}
+.firstsec h1{
+    font-size: 90px;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+.firstsec p{
+    font-size: larger;
+    margin-left: 500px;
+}
+.firstsec h3{
+    font-size: 40px;
+    margin-left: 500px;
+}
+.secondsec{
+    background-color: rgb(30, 30, 101);
+    max-height: 700px;
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 40px;
+    color: white;
+}
+.secondsec h3{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.secondsec h4{
+    font-size: large;
+}
+.secondsec button{
+    background-color: red;
+    padding: 10px;
+    font-weight: 200px;
+}
+.thirdsec{
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 0 150px;
+}
+.thirdsec h3{
+    font-size: 20px;
+}
+.thirdsec button{
+    background-color:blue ;
+    padding: 10px;
+}
+.fourthsec{
+    background-image: url(https://5.imimg.com/data5/DB/WJ/MY-605509/music-concert-500x500.jpg);
+    height: 800px;
+    background-size: cover;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 200px;
+    justify-content: center;
+    gap: 50px;
+}
+.fourthsec h3{
+    font-size: 25px;
+}
+.fifthsec{
+    min-height: 200px;
+    display: flex;
+    padding: 0 150px;
+   margin-top: 20px;
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+.content{
+    margin-top: 50px;
+}
+.content h4{
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+.content hr{
+    margin-top: 20px;
+}
+.content button{
+    background-color: rgb(76, 76, 244);
+    padding: 8px;
+    margin-top: 10px;
+}
+.navbar{
+    background-color: rgb(199, 125, 13);
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 20px 250px;
+}
+.lastdiv{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
